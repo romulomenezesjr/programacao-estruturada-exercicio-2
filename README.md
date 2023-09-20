@@ -1,28 +1,91 @@
-# programacao-estruturada-exercicio-1
+# programacao-estruturada-exercicio-2
 
 ## Questão 1:
-    Escreva um programa que solicite ao usuário um número e
-    verifique se ele é par ou ímpar. Imprima uma mensagem informando o 
-    resultado.
+    Faça um programa que calcule a quantidade de divisores de um número (incluindo 1 e o próprio número) que são divisíveis por 3.
+
+    ### Formato de entrada
+    
+    O usuário deve digitar um inteiro N.
+    
+    ### Formato de saída
+    
+    O programa deve exibir um inteiro R, sendo R o número de divisores de N que são divisiveis por 3. Caso não tenha nenhum, imprima "O numero nao possui divisores multiplos de 3" sem as aspas.
+    
+    
+    
+    O programa deve imprimir
+    
+    
+    
+    Digite um numero inteiro:
+    
+    Quantidade de divisores divisiveis por 3: n / O numero nao possui divisores multiplos de 3
+
+    Referência: https://www.thehuxley.com/problem/2842?quizId=4323
 
 
 ## Questões 2:
-    Dada a string use o operador de fatiamento para imprimir somente a metade final
-    Para 'abcdef, imprima: 'def'
-    Para 'texto', imprima 'to'
+    Escreva um programa que receba como entrada dois números inteiros e retorne a soma dos números positivos no intervalo definido por eles, considerando inclusive os extremos.
+
+    Referência: https://www.thehuxley.com/problem/406?quizId=4323
+
+    Obs: o intervalo pode ser crescente ou decrescente
+
+    #### Formato de entrada
+
+    Dois números inteiros
+    
+    Dica: os números podem ser informados em qualquer ordem (não necessariamente o primeiro será menor que o segundo)
+    
+    #### Formato de saída
+    
+    Um número inteiro
 
 ## Questão 3:
-    Leia um número da entrada e imprima todos os 10 primeiros múltiplos dele na mesma linha
+   Um professor precisa saber qual a média das notas de uma sala e pediu sua ajuda para construir um programa que permita inserir as notas finais de cada aluno e, ao final, exibir a média da sala. Lembre-se que as notas variam de 0 a 10 e o professor digitará -1 quando quiser encerrar as entradas. Obs.: use variáveis de ponto flutuante de dupla precisão.
 
-## Questão 4:
-    Escreva um programa que solicite ao usuário para digitar seu nome em letras
-    minúsculas e, em seguida, imprima o nome com a primeira letra em maiúscula. Você
-    não deve usar o método str.capitalize(). Preposições não devem ser iniadas com maiúsculo
-    Exemplo: 
-     - romulo junior - Romulo Junior
-     - ze da manga - Ze da Manga
+    Referência: https://www.thehuxley.com/problem/2487?quizId=4323
+   #### Formato de entrada
+
+    Diversos valores reais, um por linha, simbolizando as notas finais de cada aluno.
+    
+    #### Formato de saída
+    
+    Um número real, com duas casas decimais, simbolizando a média das notas da sala
     
 
+## Questão 4:
+
+    Referência: https://www.thehuxley.com/problem/713?quizId=4323
+
 ## Questão 5:
-   
+    Referência: https://www.thehuxley.com/problem/1222?quizId=4323
+
+## Questão 6: 
+
+    Referência: https://www.thehuxley.com/problem/2077?quizId=4323
+
+## Questão 7:
+    Referência: https://www.thehuxley.com/problem/2798?quizId=4323
+
+## Questão 8:
+    Referência: https://www.thehuxley.com/problem/1089?quizId=4323
+
+## Questão 9:
+    Referência: https://www.thehuxley.com/problem/2457?quizId=4323
+
+## Questão 10:
+    Referência: https://www.thehuxley.com/problem/445?quizId=4276
+
+## Questão 11:
+    Referência: https://www.thehuxley.com/problem/2809?quizId=4276
+
+## Questão 12:
+    Referência: https://www.thehuxley.com/problem/2?quizId=4276
+
+## Questão 13:
+    Referência: https://www.thehuxley.com/problem/2323?quizId=6292
+
+## Questão 14: 
+    Referência: https://www.thehuxley.com/problem/1006?quizId=6292
 
