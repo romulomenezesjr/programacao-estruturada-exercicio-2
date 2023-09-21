@@ -1,27 +1,31 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/devcontainers/images/tree/main/src/javascript-node
 {
-    "name": "Python Development",
-  
-    // Use the default remote - this points to the Visual Studio Code default dev container
-    "remoteUser": "vscode",
-  
-    // Forward local ports to the container (optional)
-    "forwardPorts": [8000],
-  
-    // Add or override settings.json values
-    "settings": {
-      "python.autoComplete.addBrackets": true,
-      "python.formatting.provider": "black",
-      "python.linting.pylintEnabled": true,
-      "python.linting.flake8Enabled": true
-    },
-  
-    // Install additional packages, e.g., for Python, Node.js, or Java (optional)
-    "extensions": ["ms-python.python", "flake"],
-  
-    // Run additional commands after container creation (optional)
-    "postCreateCommand": "pip install pytest mock",
-  
-    // Uncomment to run custom commands instead of starting a shell (interactive only)
-    // "runCommand": "python3"
-  }
-  
+  "name": "Dev Container para Python",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pip install pytest mock",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "pytest"
+  },
+
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "GitHub.copilot",
+      ]
+    }
+  },
+
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
+  },
+}
